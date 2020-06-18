@@ -48,12 +48,14 @@ def jalan(z):
 
 ##### LOGO #####
 logo = """
-\033[1;91m       💀💀💀———————————————————————————💀💀💀
-\033[1;96m                      
-\033[1;96m                   RAFID CREATIONS
-\033[1;96m
-\033[1;96m                Programme  Updated 3.0                  
-\033[1;91m       💀💀💀———————————————————————————💀💀💀
+\033[1;91m 💀____________________________________________________
+\033[1;93m     _____            ______ _____ _____               |
+\033[1;93m    |  __ \     /\   |  ____|_   _|  __ \   Author🤘   |
+\033[1;93m    | |__) |   /  \  | |__    | | | |  | |             |
+\033[1;93m    |  _  /   / /\ \ |  __|   | | | |  | |             |
+\033[1;93m    | | \ \  / ____ \| |     _| |_| |__| |             |
+\033[1;93m    |_|  \_\/_/    \_\_|    |_____|_____/              |
+\033[1;91m 💀____________________________________________________|
 """
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -113,9 +115,9 @@ CorrectPassword = "rafid"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;96m[☆] \x1b[1;97mUsername \x1b[1;96m>>>> ")
+    username = raw_input("\033[1;96m[🔑] \x1b[1;97mUsername \x1b[1;96m>>>> ")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;96m[☆] \x1b[1;97mPassword \x1b[1;96m>>>> ")
+    	password = raw_input("\033[1;96m[🔒] \x1b[1;97mPassword \x1b[1;96m>>>> ")
         if (password == CorrectPassword):
             print "Logged in successfully as " + username
             loop = 'false'
@@ -138,13 +140,13 @@ def login():
 		
 		
 		print('          \033[1;97m[◉] \x1b[1;96mUse Fresh Account \033[1;97m[◉]' )
-		id = raw_input('          \033[1;97m[◉] \033[1;97mID/Email/Username \x1b[1;91m: \x1b[1;92m')
-		pwd = raw_input('          \033[1;97m[◉] \033[1;97mPassword \x1b[1;91m: \x1b[1;92m')
+		id = raw_input('          \033[1;97m[🔑] \033[1;97mID/Email/Username \x1b[1;91m: \x1b[1;92m')
+		pwd = raw_input('          \033[1;97m[🔒] \033[1;97mPassword \x1b[1;91m: \x1b[1;92m')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
 		except mechanize.URLError:
-			print"\n\033[1;96m[!] \x1b[1;91mPlease Cheak Your Internet Connection  "
+			print"\n\033[1;96m[⚠️] \x1b[1;91mPlease Cheak Your Internet Connection  "
 			keluar()
 		br._factory.is_html = True
 		br.select_form(nr=0)
@@ -175,7 +177,7 @@ def login():
 				print"\n\033[1;97m[!] There is no internet connection"
 				keluar()
 		if 'checkpoint' in url:
-			print("\n\033[1;97m[!] Your Account is on Security Locked")
+			print("\n\033[1;97m[⚠️] Your Account is on Security Locked")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			keluar()
