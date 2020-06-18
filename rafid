@@ -93,7 +93,7 @@ jalan("\033[1;96m•💀• Use It For Education Purpose")
 jalan("\033[1;96m•⚠️• Don't use your personal id")
 jalan("\033[1;96m•😇• For COVID-19,Wear Mask and Wash Your Hands After 20 minutes")
 jalan("\033[1;93m•💥• © 2020 Rafid Inc. Version- 3.0.1")
-\033[1;93m •_________________________________________________________•
+jalan("\033[1;93m •_________________________________________________________•")
 
 jalan("   \033[1;91m Author:MUHAMMAD RAFID  ")	
 jalan("   \033[1;91m From: Bangladesh  ")
