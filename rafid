@@ -48,12 +48,12 @@ def jalan(z):
 
 ##### LOGO #####
 logo = """
-\033[1;91m       💀💀💀———————————————————————————————💀💀💀
-\033[1;96m     (রাফিদ)                      
-\033[1;96m      RAFID CREATIONS
+\033[1;91m       💀💀💀———————————————————————————💀💀💀
+\033[1;96m                      
+\033[1;96m                   RAFID CREATIONS
 \033[1;96m
-\033[1;96m                Limited Updated 3.0                  
-\033[1;91m       💀💀💀———————————————————————————————💀💀💀
+\033[1;96m                Programme  Updated 3.0                  
+\033[1;91m       💀💀💀———————————————————————————💀💀💀
 """
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -73,17 +73,17 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print  """
 
-\033[1;97m      ░R░A░F░I░D░  
+\033[1;97m   CEO- Muhammad Rafid  
 \033[1;92m      
 \033[1;97m  - Updated ✔   
 \033[1;92m       
-\033[1;97m  -😘 GIFT FOR ░K░A░M░R░A░N░ BHAI😘
+\033[1;97m  -😘 GIFT FOR @Kamran BHAI😘
 \033[1;97m  
                                                                
 
 """
 
-jalan("\033[1;97m•◈•───────•◈  We Are BD Hacker •◈•───────•◈•")  
+jalan("\033[1;97m•◈•───────•◈  BD Hacker •◈•───────•◈•")  
 
 
 jalan("\033[1;96m•💀•Use this teminal for get better results ")
@@ -96,7 +96,7 @@ jalan("\033[1;96m•◈© 2020 Rafid Inc. Version- 3.0")
 jalan("   \033[1;91m Author:MUHAMMAD RAFID  ")	
 jalan("   \033[1;91m From: Bangladesh  ")
 jalan("   \033[1;91m Notice: We are not responsible for your #HACKS  ")	
-
+jalan("   \033[1'91m For any issue contact with whatsapp :- +8801768015072 ")  
 jalan("   \033[1;93m Welcome to Rafid Creations ")
 
 jalan("\033[1;97m•😎•────────•😎•\033[1;96mBD HACKER\033[1;96m•😎•────────•😎•")
@@ -131,14 +131,14 @@ def login():
 		print 50*"\033[1;96m▪"
 		
 		
-		print('          \033[1;97m[◉] \x1b[1;96mLogin New Fresh Account \033[1;97m[◉]' )
-		id = raw_input('          \033[1;97m[◉] \033[1;97mID/Email \x1b[1;91m: \x1b[1;92m')
+		print('          \033[1;97m[◉] \x1b[1;96mUse Fresh Account \033[1;97m[◉]' )
+		id = raw_input('          \033[1;97m[◉] \033[1;97mID/Email/Username \x1b[1;91m: \x1b[1;92m')
 		pwd = raw_input('          \033[1;97m[◉] \033[1;97mPassword \x1b[1;91m: \x1b[1;92m')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
 		except mechanize.URLError:
-			print"\n\033[1;96m[!] \x1b[1;91mThere is no internet connection"
+			print"\n\033[1;96m[!] \x1b[1;91mPlease Cheak Your Internet Connection  "
 			keluar()
 		br._factory.is_html = True
 		br.select_form(nr=0)
