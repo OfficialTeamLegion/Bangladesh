@@ -73,11 +73,11 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print  """
 
-\033[1;97m       RAFID Updated✔ 
+\033[1;97m      ░R░A░F░I░D░  
 \033[1;92m      
-\033[1;97m     
+\033[1;97m  - Updated ✔   
 \033[1;92m       
-\033[1;97m   
+\033[1;97m  -😘 GIFT FOR ░K░A░M░R░A░N░ BHAI😘
 \033[1;97m  
                                                                
 
@@ -86,12 +86,12 @@ print  """
 jalan("\033[1;97m•◈•───────•◈  We Are BD Hacker •◈•───────•◈•")  
 
 
-jalan("\033[1;96m•◈•R")
-jalan("\033[1;96m•◈•A")
-jalan("\033[1;97m•◈•F")
-jalan("\033[1;96m•◈•I")
-jalan("\033[1;96m•◈•D")
-jalan("\033[1;96m•◈3.0")
+jalan("\033[1;96m•💀•Use this teminal for get better results ")
+jalan("\033[1;96m•💀•script from Bangladesh ")
+jalan("\033[1;97m•👾•Always use new id ")
+jalan("\033[1;96m•◈•Don't use your personal id")
+jalan("\033[1;96m•◈•For COVID-19,Wear Mask and Wash Your Hands After 20 minutes  ")
+jalan("\033[1;96m•◈© 2020 Rafid Inc. Version- 3.0")
  
 jalan("   \033[1;91m Author:MUHAMMAD RAFID  ")	
 jalan("   \033[1;91m From: Bangladesh  ")
@@ -99,7 +99,7 @@ jalan("   \033[1;91m Notice: We are not responsible for your #HACKS  ")
 
 jalan("   \033[1;93m Welcome to Rafid Creations ")
 
-jalan("\033[1;97m•😎•──────────•😎•\033[1;96mBD HACKER\033[1;96m•😎•──────────•😎•")
+jalan("\033[1;97m•😎•────────•😎•\033[1;96mBD HACKER\033[1;96m•😎•────────•😎•")
 
 CorrectUsername = "rafid"
 CorrectPassword = "rafid"
@@ -210,9 +210,9 @@ def menu():
 	os.system("clear")
 	print logo
 	print "   \033[1;36;40m      ╔═════════════════════════════════╗"
-	print "   \033[1;36;40m      ║\033[1;32;40m[*] Name\033[1;32;40m: "+nama+"  	   \033[1;36;40m║"                               
-	print "   \033[1;36;40m      ║\033[1;34;40m[*] ID  \033[1;34;40m: "+id+"        \033[1;36;40m║"
-	print "   \033[1;36;40m      ║\033[1;34;40m[*] Subs\033[1;34;40m: "+sub+"                      \033[1;36;40m║"
+	print "   \033[1;36;40m      ║\033[1;32;40m[*] NAME\033[1;32;40m: "+nama+"  	   \033[1;36;40m║"                               
+	print "   \033[1;36;40m      ║\033[1;34;40m[*] UID \033[1;34;40m: "+id+"        \033[1;36;40m║"
+	print "   \033[1;36;40m      ║\033[1;34;40m[*] SUBS \033[1;34;40m: "+sub+"                      \033[1;36;40m║"
 	print "   \033[1;36;40m      ╚═════════════════════════════════╝"
 	print "\033[1;32;40m[1] \033[1;33;40m══Start Free Cloning"	
 	print "\033[1;32;40m[2] \033[1;33;40m══Update Tarminal "																														
@@ -343,7 +343,7 @@ def pilih_super():
 				oks.append(user+pass1)
 			else:
 				if 'www.facebook.com' in q["error_msg"]:
-					print '\x1b[1;36;40m[After24Hr] \033[1;97m ' + user  + ' \x1b[1;36;40m|\033[1;97m ' + pass1 + ' 👽 ' + b['name']
+					print '\x1b[1;36;40m[After 1day] \033[1;97m ' + user  + ' \x1b[1;36;40m|\033[1;97m ' + pass1 + ' 👽 ' + b['name']
 					cek = open("out/CP.txt", "a")
 					cek.write(user+"|"+pass1+"\n")
 					cek.close()
