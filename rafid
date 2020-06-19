@@ -43,7 +43,7 @@ def jalan(z):
 	for e in z + '\n':
 		sys.stdout.write(e)
 		sys.stdout.flush()
-		time.sleep(00000.1)
+		time.sleep(1)
 
 
 ##### LOGO #####
@@ -58,9 +58,9 @@ logo = """
 \033[1;91m 💀_____________________________________________💀
 """
 def tik():
-	titik = ['.   ','..  ','... ']
+	titik = ['.   ','..  ','... ','.... ']
 	for o in titik:
-		print("\r\x1b[1;93mPlease Wait \x1b[1;93m"+o),;sys.stdout.flush();time.sleep(3)
+		print("\r\x1b[1;93mYour Submission On Cheaking\x1b[1;93m"+o),;sys.stdout.flush();time.sleep(2)
 
 
 back = 0
@@ -93,7 +93,11 @@ jalan("\033[1;96m•💀• Use It For Education Purpose")
 jalan("\033[1;96m•⚠️ • Don't use your personal id")
 jalan("\033[1;96m•😇• For COVID-19,Wear Mask and Wash Your Hands After 20 minutes")
 jalan("\033[1;93m•💥• © 2020 Rafid Inc.")
-jalan("\033[1;93m Version- 3.0.1 ")
+
+
+         \033[1;93m         Version- 3.0.1
+
+
 jalan("\033[1;93m •__________________________________________________•")
 
 jalan("   \033[1;91m Author:MUHAMMAD RAFID  ")	
