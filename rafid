@@ -75,6 +75,8 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print  """
 
+     \033[1;93m Software version 3.0.1  
+
 
 \033[1;93m     _____            ______ _____ _____  
 \033[1;93m    |  __ \     /\   |  ____|_   _|  __ \Author✓
@@ -93,10 +95,6 @@ jalan("\033[1;96m•💀• Use It For Education Purpose")
 jalan("\033[1;96m•⚠️ • Don't use your personal id")
 jalan("\033[1;96m•😇• For COVID-19,Wear Mask and Wash Your Hands After 20 minutes")
 jalan("\033[1;93m•💥• © 2020 Rafid Inc.")
-
-
-         \033[1;93m         Version- 3.0.1
-
 
 jalan("\033[1;93m •__________________________________________________•")
 
