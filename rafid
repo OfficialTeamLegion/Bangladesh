@@ -49,12 +49,7 @@ def jalan(z):
 ##### LOGO #####
 logo = """
 \033[1;91m 💀_____________________________________________💀
-\033[1;93m     _____            ______ _____ _____
-\033[1;93m    |  __ \     /\   |  ____|_   _|  __ \Author✓
-\033[1;93m    | |__) |   /  \  | |__    | | | |  | |
-\033[1;93m    |  _  /   / /\ \ |  __|   | | | |  | |
-\033[1;93m    | | \ \  / ____ \| |     _| |_| |__| |
-\033[1;93m    |_|  \_\/_/    \_\_|    |_____|_____/
+\033[1;93m    T e a m L e g i o m O f f i c i a l
 \033[1;91m 💀_____________________________________________💀
 """
 def tik():
@@ -78,12 +73,8 @@ print  """
      \033[1;93m Software version 3.0.1  
 
 
-\033[1;93m     _____            ______ _____ _____  
-\033[1;93m    |  __ \     /\   |  ____|_   _|  __ \Author✓
-\033[1;93m    | |__) |   /  \  | |__    | | | |  | |
-\033[1;93m    |  _  /   / /\ \ |  __|   | | | |  | |
-\033[1;93m    | | \ \  / ____ \| |     _| |_| |__| |
-\033[1;93m    |_|  \_\/_/    \_\_|    |_____|_____/
+\033[1;93m    Author: The Shahrisr 
+\033[1;93m    Group: Team Legion Official
 
 
 """
@@ -94,14 +85,14 @@ jalan("\033[1;97m•👇•───────•👉 Bangladeshi Hacker 👈�
 jalan("\033[1;96m•💀• Use It For Education Purpose")
 jalan("\033[1;96m•⚠️ • Don't use your personal id")
 jalan("\033[1;96m•😇• For COVID-19,Wear Mask and Wash Your Hands After 20 minutes")
-jalan("\033[1;93m•💥• © 2020 Rafid Inc.")
+jalan("\033[1;93m•💥• © 2020 Teamlegionofficial.")
 
 jalan("\033[1;93m •__________________________________________________•")
 
-jalan("   \033[1;91m Author:MUHAMMAD RAFID  ")	
+jalan("   \033[1;91m Author: TheShahriar  ")	
 jalan("   \033[1;91m From: Bangladesh  ")
 jalan("   \033[1;91m Notice: We are not responsible for your crime's ")	
-jalan("   \033[1;91m For any issue contact me on  whatsapp :- +8801768015072 ")  
+jalan("   \033[1;91m Thank you for using ")  
 jalan("   \033[1;93m Its a safe cloning Terminal")
 
 jalan("\033[1;97m•💋•────────────────\033[1;96m\033[1;96m────────────────•💋•")
@@ -109,12 +100,12 @@ jalan("\033[1;97m•💋•────────────────\033[
 
 
 
-jalan("   \033[1;93m Username :- rafid")
-jalan("   \033[1;93m Password :- rafid ")
+jalan("   \033[1;93m Username :- teamlegion")
+jalan("   \033[1;93m Password :- teamlegion ")
 
 
-CorrectUsername = "rafid"
-CorrectPassword = "rafid"
+CorrectUsername = "teamlegion"
+CorrectPassword = "teamlegion"
 
 
 loop = 'true'
